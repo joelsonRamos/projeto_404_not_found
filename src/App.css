@@ -1,38 +1,91 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /* text-align: center; */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
+.header{
+  margin: 20px;
+  text-align: left;
 
-.App-link {
-  color: #61dafb;
 }
+.cabecalho{
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: #333333;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+.titulo{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+
+  /* Gray 1 */
+
+  color: #333333;
+}
+.corpo_titulo{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: -0.001em;
+
+  /* Gray 2 */
+
+  color: #4F4F4F;
+
+}
+.footer{
+    text-align: center;
+}
+  .texto-footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #BDBDBD;
+  }
+  @media (max-width: 480px) {
+    .linha{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .image{
+      width: 80%;
+      
+    }
+    .footer{
+      text-align: center;
+    }
+    .titulo{
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 47px;
+      text-align:left;
+    }
+    .corpo_titulo{
+      text-align:left;
+    }
+  }
