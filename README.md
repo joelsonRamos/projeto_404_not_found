@@ -41,9 +41,13 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
+  Fiz o deploy no vercel e o link para visitar está no topo
 - What was your experience?
+  Gostei bastante estou aprendendo react e começar com ideas simples ajuda muito para entender melhor na vida real as funcionalidades.
 - What have you learned/improved?
+  responsividade, css, bootstrap
 - Your wisdom? :)
+  fazer deploy de projetos no vercel :)
 
 ### Built With
 
